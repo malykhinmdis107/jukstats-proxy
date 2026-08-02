@@ -1,0 +1,92 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Переменные окружения
+.env
+.env.local
+.env.production
+
+# Firebase
+serviceAccountKey.json
+firebase-debug.log
+firebase-debug.*.log
+
+# Логи
+logs/
+*.log
+*.log.*
+
+# Операционные системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+.classpath
+
+# Временные файлы
+*.tmp
+*.temp
+tmp/
+temp/
+.cache/
+
+# Загрузки и бэкапы
+*.zip
+*.tar.gz
+*.rar
+*.7z
+backup/
+backups/
+
+# Пароли и ключи
+*.pem
+*.key
+*.crt
+*.csr
+credentials.json
+secret.json
+
+# Системные файлы
+.bash_history
+.bash_profile
+.zsh_history
+.zshrc
+.profile
+
+# Сборка
+dist/
+build/
+.next/
+out/
+.cache/
+
+# Тесты
+coverage/
+.nyc_output/
+*.lcov
+
+# Разное
+*.pid
+*.seed
+*.pid.lock
+.eslintcache
+.stylelintcache
+.prettiercache
